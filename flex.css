@@ -27,6 +27,12 @@
 .login div:first-child {
     margin-right: 20px; /* Add margin below the "Log in" text */
 }
+.Search label input{
+  border: 1px transparent darkgray;
+  border-radius: 10px;
+  
+  
+}
 .nav2{
     display: flex;
     justify-content: flex-start;
@@ -225,3 +231,84 @@ body{
   .texth3{
     color: #5E6D55;
   }
+.body{
+  flex-wrap: wrap;
+}
+.wheel{
+  display: flex;
+  border: #13544E solid ;
+  border-radius: 10px;
+  margin: 30px;
+
+}
+
+.nearwheel{
+  background-color: #13544E;
+  height: 540px;
+  width: 700px;
+  padding-left: 30px;
+}
+.wheelimg{
+  height: 540px;
+}
+.job-link {
+  color: green; /* Change the text color to green */
+  
+}
+.looking{
+  color: gray;
+}
+.box-link {
+  text-decoration: none;
+}
+.box-text {
+  color: #000;
+}
+.box-1 {
+width: 260px;
+height: 125px;
+background-color: #E4EBE4;
+border-radius: 10px;
+padding: 10px;
+}
+.pclass{
+  display: flex;
+  gap: 35px;
+  color: #5E6D55;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  
+}
+.block8 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 30px;
+  justify-content: center;
+  align-items: first baseline;
+}
+.box-text{
+  font-weight: 500;
+  font-size: x-large;
+}
+.white-text{
+  color: white;
+  font-size: 20;
+}
+.white-text2{
+  color: white;
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.green-text{
+  color: #91E6B3;
+  font-size: 50px;
+}
+.button{
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #5E6D55;
+  width: 20px;
+}
